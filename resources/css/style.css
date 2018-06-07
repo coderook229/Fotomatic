@@ -34,6 +34,41 @@ nav li .icon {
   color: white;
 }
 
+  #sign-up-cta {
+  margin-top: 170px;
+  margin-left: 100px;
+}
+
+h2 .striking {
+  color: white;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.email span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+#sign-up-cta .button {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-top: 80px;
+  padding-bottom: 56px;
+}
+
+h2 .cursive {
+  padding-top: 32px;
+}
+
 .image-container {
   overflow: hidden;
 }
