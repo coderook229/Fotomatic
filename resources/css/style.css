@@ -62,7 +62,8 @@ h2 .striking {
   font-weight: 500;
   line-height: 1.4;
   margin-top: 80px;
-  padding-bottom: 56px;
+  padding: 26px 80px 56px;
+  bottom: 170px;
 }
 
 h2 .cursive {
@@ -71,10 +72,17 @@ h2 .cursive {
 
 .image-container {
   overflow: hidden;
+  top: 64px;
 }
 
 .image-container img {
-  display: block;
+  display: inline;
+  width: 90%;
+  height: 65%;
+  top: 32px;
+  right: 32px;
+  left: 32px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 760px) {
