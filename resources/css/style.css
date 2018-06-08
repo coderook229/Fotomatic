@@ -76,7 +76,8 @@ h2 .cursive {
 }
 
 .image-container img {
-  display: inline;
+  display: block;
+  max-width: 100%;
   width: 90%;
   height: 65%;
   bottom: 187px;
@@ -88,6 +89,20 @@ h2 .cursive {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+}
+
+.content h2, h3 {
+  text-align: center;
+}
+
+#filters-section .image-container {
+  padding: 0px 1%;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 
