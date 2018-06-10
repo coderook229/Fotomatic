@@ -80,6 +80,7 @@ h2 .cursive {
 .image-container {
   overflow: hidden;
   top: 64px;
+  padding-bottom: 64px;
 }
 
 .image-container img {
