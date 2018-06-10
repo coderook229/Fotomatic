@@ -33,10 +33,6 @@ nav li .icon {
   color: white;
 }
 
-#features-section .image-container {
-  margin-bottom: 40px;
-}
-
 #sign-up-section {
   background-image: url("../images/banner-landingpage.jpg");
 }
@@ -79,13 +75,12 @@ h2 .cursive {
 
 .image-container {
   overflow: hidden;
-  top: 64px;
-  padding-bottom: 64px;
 }
 
 .image-container img {
   display: block;
   max-width: 100%;
+  padding-bottom: 40px;
 }
 
 .feature {
@@ -105,8 +100,7 @@ h2 .cursive {
   align-items: stretch;
 }
 
-#filters-section .images-container {
-  padding: 0 1%;
+#filters-section {
   max-width: 100%;
 }
 
