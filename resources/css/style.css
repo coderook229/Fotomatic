@@ -134,7 +134,8 @@ h2 .cursive {
   padding: 80px 0;
   color: #4a4a4a;
   font-size: 30px;
-  font-family: "Palatino-italic";
+  font-family: "Palatino";
+  font-style: italic;
   line-height: 1.1;
 }
 
@@ -386,7 +387,11 @@ header .mobile {
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .feature h3 {
+    padding-bottom: 30px;
   }
 }
 
@@ -479,8 +484,9 @@ header .mobile {
   }
 
   #quotes-section quote {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 1.4;
+    text-align: center;
   }
 
   #quotes-section quote-citation {
@@ -517,6 +523,6 @@ footer.location {
 
 @media only screen and (min-width: 760px) {
   footer .content {
-    font-size: .625rem;
+    font-size: 10px;
   }
 }
