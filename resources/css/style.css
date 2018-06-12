@@ -483,10 +483,16 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 24px;
     line-height: 1.4;
-    text-align: center;
+  }
+
+  .quote {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 10px;
   }
 
   #quotes-section quote-citation {
