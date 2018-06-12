@@ -505,6 +505,14 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+  padding-left: 32px;
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto";
+}
+
+footer.location {
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 760px) {
